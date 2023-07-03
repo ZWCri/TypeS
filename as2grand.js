@@ -9,13 +9,13 @@ var grade = sumsc1 / 3;
 if (grade >= 80 && grade <= 100) {
     console.log("You got A");
 }
-else if (grade >= 70) {
+else if (grade >= 70 && grade <= 79) {
     console.log("You got B");
 }
-else if (grade >= 60) {
+else if (grade >= 60 && grade <= 69) {
     console.log("You got C");
 }
-else if (grade >= 50) {
+else if (grade >= 50 && grade <= 59) {
     console.log("You got D");
 }
 else if (grade <= 49 && grade >= 1) {
