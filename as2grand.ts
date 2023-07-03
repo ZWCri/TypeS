@@ -5,7 +5,7 @@ for(let index in score){
     let sumsc2 : number = +score[index];
     sumsc1 = sumsc1 + sumsc2
 }
-let grade : number = sumsc1/3;
+let grade : number = sumsc1;
 if(grade>=80&&grade<=100){
     console.log("You got A")
 }

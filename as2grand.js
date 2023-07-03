@@ -5,7 +5,7 @@ for (var index in score) {
     var sumsc2 = +score[index];
     sumsc1 = sumsc1 + sumsc2;
 }
-var grade = sumsc1 / 3;
+var grade = sumsc1;
 if (grade >= 80 && grade <= 100) {
     console.log("You got A");
 }
