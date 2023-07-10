@@ -33,5 +33,5 @@ f01 === null || f01 === void 0 ? void 0 : f01.addEventListener("submit", functio
         yourGrand = "Error";
     }
     console.log("คลิก");
-    div01.innerHTML = "Hallo ".concat(inputName.value, "<br>Your 1st is ").concat(inputScore1.value, "\n    <br>Your 2nd is ").concat(inputScore2.value, "<br>Your 3rt is ").concat(inputScore3.value, "\n    <br>Your Sum Score is ").concat(score01, "<br>Your Grand is ").concat(yourGrand);
+    div01.innerHTML = "Hallo ".concat(inputName.value, "<br>Your 1st is ").concat(inputScore1.value, "\n    <br>Your 2nd is ").concat(inputScore2.value, "<br>Your 3rt is ").concat(inputScore3.value, "\n    <br>Your Sum Score is ").concat(score0, "<br>Your Grand is ").concat(yourGrand);
 });

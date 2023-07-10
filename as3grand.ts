@@ -35,5 +35,5 @@ else{
     console.log("คลิก")
     div01.innerHTML = `Hallo ${inputName.value}<br>Your 1st is ${inputScore1.value}
     <br>Your 2nd is ${inputScore2.value}<br>Your 3rt is ${inputScore3.value}
-    <br>Your Sum Score is ${score01}<br>Your Grand is ${yourGrand}`
+    <br>Your Sum Score is ${score0}<br>Your Grand is ${yourGrand}`
 })
